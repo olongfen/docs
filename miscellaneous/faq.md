@@ -32,7 +32,7 @@ app.Use(func(c *fiber.Ctx) error {
 
 ## How do I set up an error handler?
 
-To override the default error handler, you can override the default when providing a [Config ](fiber.md#config)when initiating a new [Fiber instance](fiber.md#new).
+To override the default error handler, you can override the default when providing a [Config ](../api/fiber.md#config)when initiating a new [Fiber instance](../api/fiber.md#new).
 
 {% code title="Example" %}
 ```go
@@ -44,7 +44,7 @@ app := fiber.New(fiber.Config{
 ```
 {% endcode %}
 
-We have a dedicated page explaining how error handling works in Fiber, see [Error Handling](error-handling.md).
+We have a dedicated page explaining how error handling works in Fiber, see [Error Handling](../guide/error-handling.md).
 
 ## Which template engines does Fiber support?
 
@@ -66,5 +66,5 @@ To learn more about using Templates in Fiber, see [Templates](faq.md).
 Yes, we have our own [Discord ](https://gofiber.io/discord)server, where we hang out. We have different rooms for every subject.  
 If you have questions or just want to have a chat, feel free to join us via this **&gt;** [**invite link**](https://gofiber.io/discord) **&lt;**.
 
-![](.gitbook/assets/2020-06-08-03_06_27-support-discord.png)
+![](../.gitbook/assets/2020-06-08-03_06_27-support-discord.png)
 
